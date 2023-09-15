@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Unb';
+    src: url('../font/Unbounded-Regular.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Unb';
+}
+.container{
+    max-width: 1400px;
+}
+.header{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.header-list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.header-link{
+    color: black;
+    font-size: 24px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+}
+.form{
+    text-align: center;
+}
+.main{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
